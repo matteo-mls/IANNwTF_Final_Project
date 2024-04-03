@@ -3,7 +3,9 @@
 
 
 Choose one of the three Models, set up the variables “da” and “threshold”:
+
 *threshold* represents how many training samples we are using from the original datasets (N.B. when = 2000 it comprehends also the test_set)
+
 *da* represents how many original samples are we using to create augmented data (N.B. the training data size will be always generated based on the test_size parameter, if 0.3, training data size = 1400)
 
 Base
